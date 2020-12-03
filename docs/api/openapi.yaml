@@ -4,7 +4,7 @@ info:
   contact: {}
   version: '1.0'
 servers:
-  - url: https://app-carlos.herokuapp.com/
+  - url: https://kiwi-sa.herokuapp.com/
 paths:
   /session:
     post:
