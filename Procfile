@@ -1,0 +1,1 @@
+web: yarn sequelize db:migrate && NODE_ENV=production sucrase-node ./src/server.js
