@@ -39,7 +39,7 @@ Se o Pipeline falhar, não será possível realizar `merge`.
 
 Pull requests precisam ser revisados por um colaborador para serem aprovados.
 
-## Guia de instalação
+## Guia de instalação do ambiente local
 
 Antes de qualquer coisa rode este comando na raiz do projeto, isso instalará todas as dependências:
 
