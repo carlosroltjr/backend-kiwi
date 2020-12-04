@@ -1,6 +1,10 @@
 # Kiwi
 
-Aplicativo de filas de estabelecimentos.
+Aplicativo de gerenciamento de filas de estabelecimentos.
+
+## Documentação
+
+https://kiwi-sa.herokuapp.com/api-docs/
 
 ## Técnologias usadas
 
@@ -51,18 +55,10 @@ yarn install
 docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
 ```
 
-Caso não tenha muita experiência com docker aqui vai uma lista de [comandos mais usados](https://www.edureka.co/blog/docker-commands/).
-
-**2.** Crie o banco de dados com Sequelize:
+**2.** Crie o banco de dados e rode as migrations com Sequelize:
 
 ```bash
-yarn sequelize db:create
-```
-
-**3.** Rode as migrations:
-
-```bash
-yarn sequelize db:migrate
+yarn sequelize db:create && yarn sequelize db:migrate
 ```
 
 ### Rodar a aplicação
